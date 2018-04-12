@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo_Amazon_Search">
+
+<test name="Book Search">
+    <classes>
+        <class name="com.pro.testcases.AmazonSearch" ></class>  
+    </classes>
+</test>
+</suite>

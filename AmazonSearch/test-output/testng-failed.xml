@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo_Amazon_Search]">
+  <test name="Book Search(failed)">
+    <classes>
+      <class name="com.pro.testcases.AmazonSearch">
+        <methods>
+          <include name="searchCategory" invocation-numbers="2"/>
+          <include name="setStatus"/>
+          <include name="beforeTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.pro.testcases.AmazonSearch -->
+    </classes>
+  </test> <!-- Book Search(failed) -->
+</suite> <!-- Failed suite [Demo_Amazon_Search] -->
